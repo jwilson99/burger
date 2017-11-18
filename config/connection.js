@@ -4,7 +4,7 @@ var mysql = require("mysql");
 var connection = mysql.createConnection({
     port: 3306,
     host: "localhost",
-    user: "root",
+    user: "root1",
     password: "",
     database: "burgers_db"
 });
@@ -14,7 +14,9 @@ connection.connect(function(err){
     if (err) {
         console.error("error connection: " + err.stack);
     }
-    console.log("connected as id " + connection.threadId);
+    else{
+        console.log("connected as id " + connection.threadId);
+    }
 });
 
 // export connection for orm use

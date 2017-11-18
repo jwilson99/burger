@@ -14,12 +14,12 @@ var burger = {
     },
     update: function(objCalVals, condition, cb) {
         orm.update("burgers", objCalVals, condition, function(res){
-            cd(res);
+            cb(res);
         });
     },
     delete: function(condition, cb){
         orm.delete("burgers", condition, function(res){
-            cd(res);
+            cb(res);
         });
     }
 };
