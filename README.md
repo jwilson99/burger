@@ -1,6 +1,8 @@
 # Eat the Burger
+"Devour" burgers and add burgers for consumption dynamically while actively updating a mysql database associated with these burgers.
 
-# "Devour" burgers and add burgers for consumption dynamically while actively updating a mysql database associated with these burgers.
+# Deployed Site
+https://eat-the-burgers.herokuapp.com/
 
 # Technologies
 * Javascript/jQuery
